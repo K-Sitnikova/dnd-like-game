@@ -9,6 +9,9 @@
     },
     label: {
       default: 'button'
+    },
+    disabled: {
+      default: false
     }
   })
 
@@ -23,6 +26,7 @@
         class="button"
         :type="type"
         :value="value"
+        :disabled="disabled"
         @click="$emit('submitValue', value)"
     >{{label}}</button>
 </template>

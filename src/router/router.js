@@ -15,7 +15,7 @@ const routes = [
         component: Start
     },
     {
-        path: '/start/:id',
+        path: '/:id',
         component: IdPage
     }
 ]
