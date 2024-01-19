@@ -5,15 +5,16 @@ import '/src/assets/styles/main.pcss'
 
 const player = document.getElementById('player');
 const button = document.getElementById('sound')
+const music = new Audio('/music/dark_ambient.mp3')
 button.addEventListener('click', async () => {
     if(player.muted) {
         player.muted = false
-        await player.play()
+        await music.play()
         button.innerText = 'ambient off'
     } else {
         player.muted = true
         button.innerText = 'ambient on'
-        await player.pause()
+        await music.pause()
     }
 })
 
