@@ -52,7 +52,7 @@
           <template v-for="btn in result.answers" :id="btn.value">
             <router-link :to="btn.value" >
               <base-button
-                  @submitValue="chooseAnswer(btn.value)"
+                  @submitValue="chooseAnswer(btn.go_to)"
                   class="container__button container__answers-button"
                   :label="btn.value"
               />
