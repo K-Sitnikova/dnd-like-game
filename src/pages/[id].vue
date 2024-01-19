@@ -104,6 +104,9 @@
   const goNext = () => {
     localStorage.removeItem('page')
     localStorage.setItem('page', result.go_to.page)
+    if(result.go_to.page === '/') {
+      localStorage.removeItem('items')
+    }
   }
 
   const chooseAnswer = (value) => {
