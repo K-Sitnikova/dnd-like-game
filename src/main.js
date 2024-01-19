@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router/router.js";
 import '/src/assets/styles/main.pcss'
 
-const player = document.querySelector('audio');
+const player = document.getElementById('player');
 const button = document.getElementById('sound')
 button.addEventListener('click', async () => {
     if(player.muted) {
