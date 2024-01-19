@@ -10,7 +10,9 @@
     <title>Цирк-западня</title>
   </head>
   <body>
-    <embed src="src/assets/music/dark_ambient.mp3" style="position: absolute" autostart="true" hidden="true" loop="true"/>
+      <button class="sound" id="sound">ambient on</button>
+      <audio autoplay id="player" src="src/assets/music/dark_ambient.mp3" muted="muted" hidden="hidden" loop>
+      </audio>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
