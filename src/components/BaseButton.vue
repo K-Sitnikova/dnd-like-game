@@ -52,7 +52,8 @@
       text-align: center;
       text-transform: none;
       -webkit-user-select: none;
-      white-space: nowrap;
+      white-space: pre-wrap;
+      word-break: break-word;
 
       &:focus {
         text-decoration: none;
