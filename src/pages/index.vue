@@ -3,7 +3,7 @@
     <div class="container__wrapper">
       <h1 class="container__header">Добро пожаловать в этот мини квест, где от твоих решений зависит исход истории</h1>
       <p class="container__description">Выбирай разумно!</p>
-      <router-link to="/start">
+      <router-link to="/horror_story/start">
         <BaseButton
             class="container__button"
             label="Начать"

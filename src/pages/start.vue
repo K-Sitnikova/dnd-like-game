@@ -11,7 +11,7 @@
         И помни: ты можешь взять только три предмета — не больше!
         Может, они тебе пригодятся, когда дела примут скверный оборот?
       </p>
-      <router-link to="/4">
+      <router-link to="/horror_story/4">
         <BaseButton @submitValue="setPage" class="container__button" label="Выбрать предметы"/>
       </router-link>
     </div>

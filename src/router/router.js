@@ -7,15 +7,15 @@ import {createRouter, createWebHistory} from "vue-router";
 
 const routes = [
     {
-        path: '/',
+        path: '/horror_story/',
         component: Index
     },
     {
-        path: '/start',
+        path: '/horror_story/start',
         component: Start
     },
     {
-        path: '/:id',
+        path: '/horror_story/:id',
         component: IdPage
     }
 ]

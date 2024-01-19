@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="container__wrapper" v-if="data">
-      <p v-if="myItems" class="container__items" key="id">Выбрано: <span>{{ myItems }}</span></p>
+      <p v-if="myItems" class="container__items" key="id">Выбрано (наведи мышку чтобы посмотреть): <span>{{ myItems }}</span></p>
       <p class="container__description">{{result.description}}</p>
       <div class="container__checkboxes" v-if="data === '4'">
         <template v-for="item in items" :key="item.item.name">
@@ -50,7 +50,7 @@
       <template v-else>
         <div class="container__answers">
           <template v-for="btn in result.answers" :id="btn.value">
-            <router-link :to="btn.value" >
+            <router-link :to="btn.go_to" >
               <base-button
                   @submitValue="chooseAnswer(btn.go_to)"
                   class="container__button container__answers-button"
