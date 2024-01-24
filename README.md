@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+This is interractive horror story written by R.Stein
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[You can try it here](https://k-sitnikova.github.io/horror_story/)
 
-## Recommended IDE Setup
+start page is
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![start page](https://i.ibb.co/cLXyfh3/start.png)
+
+Click on the button and turn on dark ambient music
+
+![click here and turn on horror music](https://i.ibb.co/r0sR9N1/sound.png)
+
+Your choices affect the end of the story, choose wisely!
+
+the language of story - russian
+
+
+Stack techologies: Vue3, Vite, Postcss
+
+
+install dependencies
+```
+npm install
+```
+
+run project
+```
+npm run dev
+
+```
